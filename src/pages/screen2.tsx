@@ -17,12 +17,9 @@ export default function Screen2() {
         <main
           className={`${
             isOpen ? 'blur-[2px]' : ''
-          } h-full px-4 py-4 space-y-4 text-neutral-900`}
+          } h-full px-4 py-4 space-y-4 text-neutral-900 max-w-md mx-auto`}
         >
-          {/* Club Image Placeholder */}
           <div className="bg-neutral-100 rounded-2xl h-24"></div>
-
-          {/* Club Title + Edit */}
           <div>
             <div className="flex items-center justify-between mb-1">
               <h2 className="font-bold text-lg">Название Клуба</h2>
@@ -34,13 +31,9 @@ export default function Screen2() {
             ></textarea>
           </div>
 
-          {/* Club Description */}
-
-          {/* Participants */}
           <div className="pt-4">
             <h3 className="font-semibold text-sm mb-2">Участники ( 2 )</h3>
 
-            {/* Search */}
             <div className="relative mb-4">
               <MagnifyingGlassIcon className="w-5 h-5 absolute left-3 top-2.5 text-neutral-400" />
               <input
@@ -50,7 +43,6 @@ export default function Screen2() {
               />
             </div>
 
-            {/* Participants List */}
             <div className="space-y-2 font-medium">
               <div className="bg-neutral-100 p-2 rounded-xl flex items-center space-x-3">
                 <div className="w-6 h-6 bg-neutral-300 rounded-full" />

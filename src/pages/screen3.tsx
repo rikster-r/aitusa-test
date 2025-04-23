@@ -16,7 +16,7 @@ export default function screen3() {
       </Head>
       <div className="bg-white min-h-screen">
         <Header />
-        <main className="h-full px-4 py-4 space-y-4">
+        <main className="h-full px-4 py-4 space-y-4 max-w-md mx-auto">
           <h2 className="text-xl font-semibold mb-4 text-gray-800">
             Настройки Клуба
           </h2>

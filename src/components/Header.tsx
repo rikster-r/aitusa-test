@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header className="bg-[#3e6390] w-full flex px-4 py-3 items-center">
+    <header className="bg-[#3e6390] w-full flex px-4 py-3 items-center max-w-md mx-auto">
       <Link href="/">
         <ChevronLeftIcon className="w-5 h-5" />
       </Link>

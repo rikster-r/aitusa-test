@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <div className="bg-white min-h-screen">
         <Header />
-        <main className="h-full px-4 py-4 ">
+        <main className="h-full px-4 py-4 max-w-md mx-auto">
           <div className="relative mb-4">
             <MagnifyingGlassIcon className="w-5 h-5 absolute left-3 top-2.5 text-neutral-400" />
             <input
